@@ -22,13 +22,15 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Md Manawar Iqbal",
                 1000,
-                "Web Developer",
+                "Full Stack Developer",
                 1000,
-                "Mobile Developer",
+                "Frontend Developer",
                 1000,
-                "UI/UX Designer",
+                "Backend Developer",
+                1000,
+                "AI Engineeer",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          Full Stack Developer with 2+ years of experience in building scalable web applications using modern technologies like React, Node.js, and Docker. Proficient in front-end and back-end development, databases, and cloud-based DevOps practices.
           </p>
           <div>
             <Link

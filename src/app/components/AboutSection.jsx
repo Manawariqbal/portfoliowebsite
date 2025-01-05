@@ -9,12 +9,16 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>Nextjs</li>
+        <li>Mongodb</li>
+        <li>PostgreSQL</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+        <li>Azure</li>
       </ul>
     ),
   },
@@ -23,8 +27,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>B Tech in computer Science and Engineering (2018-2022)</li>
+        <li>West Bengal University of Technology</li>
       </ul>
     ),
   },
@@ -34,7 +38,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Azure Cloud Fundementals</li>
       </ul>
     ),
   },
@@ -57,12 +61,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          Full Stack Developer with over 2 years  of experience, skilled in a wide array of web technologies including HTML, CSS, JavaScript, and TypeScript. Proficient in both front-end and back-end frameworks such as React,Next.js, Node.js, and Express. Experience in building scalable and real-time applications using modern tools like Docker, Kubernetes, and CI/CD pipelines. Hands-on experience with databases (SQL NoSQL), WebSockets.
+          A strong problem-solver with excellent knowledge of DevOps practices and cloud infrastructure.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
